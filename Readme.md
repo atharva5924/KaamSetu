@@ -173,7 +173,7 @@ kaamSetu/
 │   ├── models/
 │   │   └── District.js          # MongoDB District schema
 │   ├── middleware/
-│   │   └── cache.js             # NodeCache caching middleware
+│       └── cache.js             # NodeCache caching middleware
 │
 ├── frontend/
 │   ├── src/
