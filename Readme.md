@@ -8,8 +8,8 @@ A production-ready web application that makes Government MGNREGA employment data
 
 ## 🌍 Live Deployment
 
-- **Frontend URL:** (Your hosted URL - Vercel/Render)
-- **Backend API:** (Your hosted URL - Render/VPS)
+- **Frontend URL:** [Deploy](https://kaam-setu.vercel.app/)
+- **Backend API:** [backend](https://kaamsetu-6i75.onrender.com/api/health)
 
 ---
 
