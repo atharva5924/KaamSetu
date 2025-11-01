@@ -174,8 +174,6 @@ kaamSetu/
 │   │   └── District.js          # MongoDB District schema
 │   ├── middleware/
 │   │   └── cache.js             # NodeCache caching middleware
-│   └── seeds/
-│       └── seedDistricts.js     # Initial district data
 │
 ├── frontend/
 │   ├── src/
