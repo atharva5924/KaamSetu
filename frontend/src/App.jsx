@@ -7,25 +7,23 @@ function App() {
   const [finYear, setFinYear] = useState("2025-2026");
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-50 via-white to-green-50 flex flex-col items-center justify-start">
-      {/* Header */}
+    <div className="min-h-screen bg-linear-to-b from-blue-50 via-white to-green-50 flex flex-col items-center justify-start">
       <header className="w-full flex flex-col items-center">
         <div className="w-full max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col items-center text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-2 text-center">
             🗣️ Our Voice, Our Rights
           </h1>
-          <p className="text-blue-100 text-lg max-w-xl text-center">
+          <p className="text-blue-500 text-lg max-w-xl text-center">
             Know Your District&apos;s MGNREGA Performance | अपने जिले का MGNREGA
             प्रदर्शन जानें
           </p>
-          <p className="text-blue-50 text-sm mt-2 max-w-xl text-center">
+          <p className="text-blue-400 text-sm mt-2 max-w-xl text-center">
             Powered by Government of India Open Data | Government of India की
             खुली डेटा से
           </p>
         </div>
       </header>
 
-      {/* Main content */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <DistrictSelector
           selectedDistrict={selectedDistrict}

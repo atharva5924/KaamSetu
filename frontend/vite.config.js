@@ -8,7 +8,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "http://localhost:5000",
+        target: "https://kaamsetu-6i75.onrender.com",
         changeOrigin: true,
       },
     },

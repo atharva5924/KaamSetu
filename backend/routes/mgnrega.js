@@ -22,8 +22,6 @@ router.get("/district/:name", cacheMiddleware(3600), async (req, res) => {
   try {
     const districtName = req.params.name;
      const finYear = req.query.fin_year || '2025-2026'
-
-    // Find the district info from your database (for geo data etc)
     const district = await District.findOne({ districtName });
     if (!district) {
       return res.status(404).json({ error: "District not found" });
