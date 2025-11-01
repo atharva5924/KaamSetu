@@ -85,7 +85,7 @@ Government of India's MGNREGA program is one of the largest welfare initiatives,
 
 ```bash
 git clone https://github.com/atharva5924/KaamSetu.git
-cd mgnrega-dashboard
+cd kaamSetu
 ```
 
 ---
@@ -163,7 +163,7 @@ Frontend runs at `http://localhost:5173`
 ## 📁 Project Structure
 
 ```
-mgnrega-dashboard/
+kaamSetu/
 ├── backend/
 │   ├── server.js                 # Express server entry point
 │   ├── package.json
@@ -173,9 +173,7 @@ mgnrega-dashboard/
 │   ├── models/
 │   │   └── District.js          # MongoDB District schema
 │   ├── middleware/
-│   │   └── cache.js             # NodeCache caching middleware
-│   └── seeds/
-│       └── seedDistricts.js     # Initial district data
+│       └── cache.js             # NodeCache caching middleware
 │
 ├── frontend/
 │   ├── src/
