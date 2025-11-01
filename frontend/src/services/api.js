@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API_BASE = "/api/mgnrega";
+const API_BASE =import.meta.env.PROD ? "https://kaamsetu-6i75.onrender.com/api/mgnrega" : "/api/mgnrega";
+
 
 export const getDistricts = async () => {
   try {
